@@ -35,15 +35,7 @@
     background-color:#fff;
     color: #444;
   }
-  html, body {
-    height: 100%;
-  }
-  header {
-    height: 100%;
-    min-height: 600px;
-    background: #000 url(http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/header-bg.jpg) center center no-repeat;
-    background-size: cover;
-  }
+  
   header .logo {
     color: #f7ba3e;
     font-size: 32px;
