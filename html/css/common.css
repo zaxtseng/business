@@ -98,11 +98,27 @@
   section > ul p {
     margin-top: 10px;
   }
-  
-  
-  
-  
-  
+  section .family figure {
+    width: calc(33.33% - 20px);
+    height: 400px;
+    margin: 10px;
+    float: left;
+  }
+  section .family a {
+    display: block;
+    height: 280px;
+  }
+  section .family img {
+    width: 100%;
+    height: 100%;
+  }
+  section .family h2 {
+    margin-top: 10px;
+  }
+  section .family p {
+    margin-top: 10px;
+    color: #666;
+  }
   
   
   
