@@ -120,7 +120,8 @@
     color: #666;
   }
   section .timeline > li {
-    margin-top: 20px;
+    position: relative;
+    margin-top: 40px;
   }
   section .timeline > li:nth-child(odd) {
     padding-right: calc(50% - 50px);
@@ -131,11 +132,18 @@
     display: block;
     clear: both;
   }
-  section .timeline img {
+  section .timeline img, 
+  section .timeline .img { 
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: 3px solid lightgray;
+  }
+  section .timeline .img {
+    padding-top: 10px;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
   }
   section .timeline > li:nth-child(odd) dl {
     margin-right: 120px;
@@ -161,9 +169,17 @@
   section .timeline dd:nth-of-type(1) {
   color: #666;
   }
-  section .timeline::before {
-    contant: '';
+  section .timeline > li::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    margin-left: 0px;
     display: inline-block;
-    height: 40px;
-    width: 
+    height: 50px;
+    width: 4px;
+    background-color: lightgray;
+  }
+  section .timeline > li:last-child:before {
+    height: 0;
   }
