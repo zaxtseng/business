@@ -152,7 +152,6 @@
     float: right;
   }
   section .timeline > li:nth-child(even) {
-    color: red;
     padding-left: calc(50% - 50px);
     text-align: left;
   }
@@ -183,3 +182,171 @@
   section .timeline > li:last-child:before {
     height: 0;
   }
+  .section-team {
+    margin: 0 auto;
+    padding: 250px 0 0 0;
+    background: #f7f7f7;
+}
+
+.team {
+    margin-top: 75px;
+}
+
+.team-mate {
+    float: left;
+    width: 33.33%;
+}
+
+.team-mate img {
+    width: 225px;
+    height: 225px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+@media(max-width:800px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .name {
+        min-width: 200px;
+    }
+}
+
+section .icont-4 {
+    font-size: 40px;
+    background: black;
+    color: #fff;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+}
+
+.name i {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.name p,
+h3 {
+    margin-top: 10px;
+}
+
+.name p {
+    color: gray;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.name>i:hover {
+    background: #f1d136;
+}
+
+.long-text {
+    font-size: 17px;
+    color: gray;
+    width: 70%;
+    margin: 50px auto 0 auto;
+    padding-bottom: 100px;
+}
+
+.section-advertise img {
+    margin: 50px 50px;
+}
+
+.section-contact {
+    margin: 0 auto;
+    width: 100%;
+    height:
+}
+
+.fixclear::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.sub-bg {
+    width: 100%;
+    /* height: 100%; */
+    background: url(https://chenleoxx.github.io/demos/companypage/images/%E5%BA%95%E9%83%A8.jpg) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.sub-bg h1 {
+    color: white;
+    padding-top: 200px;
+}
+
+.btns {
+    position: relative;
+    padding-top: 60px;
+}
+
+.btns input {
+    display: block;
+    width: 40%;
+    height: 60px;
+    border-radius: 4px;
+    margin: 15px;
+    padding: 5px;
+    border-style: none;
+    float: left;
+    margin-left: 130px;
+}
+
+.info {
+    margin-bottom: 100px;
+}
+
+.msg {
+    float: right;
+    width: 40%;
+    height: 260px;
+    padding: 10px;
+    border-radius: 4px;
+    border-style: none;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.send-btn {
+    background: #f1d136;
+    color: white;
+    min-width: 230px;
+    min-height: 70px;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section-right {
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+.foot-icont i:hover {
+    background: #f1d136;
+}
+
+.section-right a {
+    color: #F7BA3E;
+}
+
+@media (max-width:850px) {
+    .btns input {
+        display: flex;
+        direction: column;
+        align-items: center;
+        
+    }
+    .btns textarea {
+        margin: 0 auto;
+    }
+}
